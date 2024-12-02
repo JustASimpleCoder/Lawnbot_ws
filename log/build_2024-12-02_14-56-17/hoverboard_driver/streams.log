@@ -1,0 +1,94 @@
+[0.013s] Invoking command in '/home/jacob/Lawnbot_ws/build/hoverboard_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jacob/slambot_ws/install/uno_serial:/opt/ros/jazzy /usr/bin/cmake /home/jacob/Lawnbot_ws/src/hoverboard-driver -DCMAKE_INSTALL_PREFIX=/home/jacob/Lawnbot_ws/install/hoverboard_driver
+[0.199s] -- The CXX compiler identification is GNU 13.2.0
+[0.473s] -- Detecting CXX compiler ABI info
+[0.634s] -- Detecting CXX compiler ABI info - done
+[0.642s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.644s] -- Detecting CXX compile features
+[0.644s] -- Detecting CXX compile features - done
+[0.657s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.764s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.865s] -- Found hardware_interface: 4.20.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[1.008s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.021s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.040s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.061s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.290s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.339s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.343s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.373s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.405s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.410s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.511s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.514s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.520s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.568s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.898s] -- Found control_toolbox: 3.3.0 (/opt/ros/jazzy/share/control_toolbox/cmake)
+[1.921s] -- Found parameter_traits: 0.3.9 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.941s] -- Found ament_cmake_gtest: 2.5.2 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[2.026s] -- Configuring done (2.0s)
+[2.040s] -- Generating done (0.0s)
+[2.041s] -- Build files have been written to: /home/jacob/Lawnbot_ws/build/hoverboard_driver
+[2.052s] Invoked command in '/home/jacob/Lawnbot_ws/build/hoverboard_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jacob/slambot_ws/install/uno_serial:/opt/ros/jazzy /usr/bin/cmake /home/jacob/Lawnbot_ws/src/hoverboard-driver -DCMAKE_INSTALL_PREFIX=/home/jacob/Lawnbot_ws/install/hoverboard_driver
+[2.053s] Invoking command in '/home/jacob/Lawnbot_ws/build/hoverboard_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jacob/slambot_ws/install/uno_serial:/opt/ros/jazzy /usr/bin/cmake --build /home/jacob/Lawnbot_ws/build/hoverboard_driver -- -j16 -l16
+[2.085s] [ 66%] [32mBuilding CXX object CMakeFiles/hoverboard_driver.dir/hardware/pid.cpp.o[0m
+[2.085s] [ 66%] [32mBuilding CXX object CMakeFiles/hoverboard_driver.dir/hardware/hoverboard_driver.cpp.o[0m
+[5.109s] [01m[K/home/jacob/Lawnbot_ws/src/hoverboard-driver/hardware/hoverboard_driver.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type hoverboard_driver::hoverboard_driver::[01;32m[Kread[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[5.109s] [01m[K/home/jacob/Lawnbot_ws/src/hoverboard-driver/hardware/hoverboard_driver.cpp:328:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.109s]   328 |       const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &period[m[K)
+[5.109s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[5.111s] [01m[K/home/jacob/Lawnbot_ws/src/hoverboard-driver/hardware/hoverboard_driver.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type hoverboard_driver::hoverboard_driver::[01;32m[Kwrite[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[5.111s] [01m[K/home/jacob/Lawnbot_ws/src/hoverboard-driver/hardware/hoverboard_driver.cpp:451:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kpid_outputs[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[5.111s]   451 |     double [01;35m[Kpid_outputs[m[K[2];
+[5.111s]       |            [01;35m[K^~~~~~~~~~~[m[K
+[5.111s] [01m[K/home/jacob/Lawnbot_ws/src/hoverboard-driver/hardware/hoverboard_driver.cpp:429:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.111s]   429 |       [01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &period)
+[5.111s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[8.850s] [100%] [32m[1mLinking CXX shared library libhoverboard_driver.so[0m
+[9.168s] [100%] Built target hoverboard_driver
+[9.175s] Invoked command in '/home/jacob/Lawnbot_ws/build/hoverboard_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jacob/slambot_ws/install/uno_serial:/opt/ros/jazzy /usr/bin/cmake --build /home/jacob/Lawnbot_ws/build/hoverboard_driver -- -j16 -l16
+[9.197s] Invoking command in '/home/jacob/Lawnbot_ws/build/hoverboard_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jacob/slambot_ws/install/uno_serial:/opt/ros/jazzy /usr/bin/cmake --install /home/jacob/Lawnbot_ws/build/hoverboard_driver
+[9.202s] -- Install configuration: ""
+[9.203s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/hoverboard_driver.xml
+[9.203s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/include/hoverboard_driver
+[9.203s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver
+[9.204s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/protocol.hpp
+[9.204s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/hoverboard_driver.hpp
+[9.204s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/pid.hpp
+[9.204s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/config.hpp
+[9.204s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/launch
+[9.204s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/launch/view_robot.launch.py
+[9.204s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/ros2_control
+[9.205s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/ros2_control/hoverboard_driver.ros2_control.xacro
+[9.205s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/urdf
+[9.205s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/urdf/diffbot.urdf.xacro
+[9.205s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/urdf/diffbot.materials.xacro
+[9.205s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/urdf/diffbot_description.urdf.xacro
+[9.205s] -- Up-to-date: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/launch
+[9.205s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/launch/diffbot.launch.py
+[9.205s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/config
+[9.205s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/config/hoverboard_controllers.yaml
+[9.205s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/lib/libhoverboard_driver.so
+[9.208s] -- Set non-toolchain portion of runtime path of "/home/jacob/Lawnbot_ws/install/hoverboard_driver/lib/libhoverboard_driver.so" to ""
+[9.208s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/environment/library_path.sh
+[9.208s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/environment/library_path.dsv
+[9.209s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/ament_index/resource_index/package_run_dependencies/hoverboard_driver
+[9.209s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/ament_index/resource_index/parent_prefix_path/hoverboard_driver
+[9.209s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/environment/ament_prefix_path.sh
+[9.209s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/environment/ament_prefix_path.dsv
+[9.209s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/environment/path.sh
+[9.209s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/environment/path.dsv
+[9.209s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/local_setup.bash
+[9.210s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/local_setup.sh
+[9.210s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/local_setup.zsh
+[9.210s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/local_setup.dsv
+[9.210s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/package.dsv
+[9.210s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/ament_index/resource_index/packages/hoverboard_driver
+[9.210s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hoverboard_driver
+[9.210s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/export_hoverboard_driverExport.cmake
+[9.211s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/export_hoverboard_driverExport-noconfig.cmake
+[9.211s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/ament_cmake_export_targets-extras.cmake
+[9.211s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.211s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/hoverboard_driverConfig.cmake
+[9.211s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/hoverboard_driverConfig-version.cmake
+[9.211s] -- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/package.xml
+[9.213s] Invoked command in '/home/jacob/Lawnbot_ws/build/hoverboard_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jacob/slambot_ws/install/uno_serial:/opt/ros/jazzy /usr/bin/cmake --install /home/jacob/Lawnbot_ws/build/hoverboard_driver

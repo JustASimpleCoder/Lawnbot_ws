@@ -1,0 +1,88 @@
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found hardware_interface: 4.20.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found control_toolbox: 3.3.0 (/opt/ros/jazzy/share/control_toolbox/cmake)
+-- Found parameter_traits: 0.3.9 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Found ament_cmake_gtest: 2.5.2 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+-- Configuring done (2.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jacob/Lawnbot_ws/build/hoverboard_driver
+[ 66%] [32mBuilding CXX object CMakeFiles/hoverboard_driver.dir/hardware/pid.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/hoverboard_driver.dir/hardware/hoverboard_driver.cpp.o[0m
+[01m[K/home/jacob/Lawnbot_ws/src/hoverboard-driver/hardware/hoverboard_driver.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type hoverboard_driver::hoverboard_driver::[01;32m[Kread[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/jacob/Lawnbot_ws/src/hoverboard-driver/hardware/hoverboard_driver.cpp:328:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  328 |       const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &period[m[K)
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/jacob/Lawnbot_ws/src/hoverboard-driver/hardware/hoverboard_driver.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type hoverboard_driver::hoverboard_driver::[01;32m[Kwrite[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/jacob/Lawnbot_ws/src/hoverboard-driver/hardware/hoverboard_driver.cpp:451:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kpid_outputs[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  451 |     double [01;35m[Kpid_outputs[m[K[2];
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/jacob/Lawnbot_ws/src/hoverboard-driver/hardware/hoverboard_driver.cpp:429:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  429 |       [01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &period)
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[100%] [32m[1mLinking CXX shared library libhoverboard_driver.so[0m
+[100%] Built target hoverboard_driver
+-- Install configuration: ""
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/hoverboard_driver.xml
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/include/hoverboard_driver
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/protocol.hpp
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/hoverboard_driver.hpp
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/pid.hpp
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/config.hpp
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/launch
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/launch/view_robot.launch.py
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/ros2_control
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/ros2_control/hoverboard_driver.ros2_control.xacro
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/urdf
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/urdf/diffbot.urdf.xacro
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/urdf/diffbot.materials.xacro
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/urdf/diffbot_description.urdf.xacro
+-- Up-to-date: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/launch
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/launch/diffbot.launch.py
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/config
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/config/hoverboard_controllers.yaml
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/lib/libhoverboard_driver.so
+-- Set non-toolchain portion of runtime path of "/home/jacob/Lawnbot_ws/install/hoverboard_driver/lib/libhoverboard_driver.so" to ""
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/environment/library_path.sh
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/environment/library_path.dsv
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/ament_index/resource_index/package_run_dependencies/hoverboard_driver
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/ament_index/resource_index/parent_prefix_path/hoverboard_driver
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/environment/ament_prefix_path.sh
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/environment/ament_prefix_path.dsv
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/environment/path.sh
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/environment/path.dsv
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/local_setup.bash
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/local_setup.sh
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/local_setup.zsh
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/local_setup.dsv
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/package.dsv
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/ament_index/resource_index/packages/hoverboard_driver
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hoverboard_driver
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/export_hoverboard_driverExport.cmake
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/export_hoverboard_driverExport-noconfig.cmake
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/hoverboard_driverConfig.cmake
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/hoverboard_driverConfig-version.cmake
+-- Installing: /home/jacob/Lawnbot_ws/install/hoverboard_driver/share/hoverboard_driver/package.xml
